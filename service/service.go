@@ -23,7 +23,7 @@ func Details() {
     fmt.Println("Address3: ", a3)
 } 
 func Person(){
-      details:= model.Person{}
+      details:= model.Person{"",789}
 	  fmt.Println(details)
 
 	  detail1:= model.Person{"yusuf",234}
